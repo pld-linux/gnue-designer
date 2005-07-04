@@ -47,6 +47,6 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS BUGS ChangeLog NEWS README* TODO doc/*.* doc/technotes
 %attr(755,root,root) %{_bindir}/*
-%{py_sitedir}/gnue
+%{py_sitedir}/gnue/designer
 %{_datadir}/gnue/images/designer
 %{_mandir}/man?/*
