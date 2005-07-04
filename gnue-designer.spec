@@ -1,5 +1,5 @@
 Summary:	GNUe Designer - the IDE for the GNUe tools
-#Summary(pl):	
+Summary(pl):	GNUe Designer - IDE dla narzêdzi GNUe
 Name:		gnue-designer
 Version:	0.5.6
 Release:	0.1
@@ -13,6 +13,7 @@ BuildRequires:	python
 BuildRequires:	python-devel
 Requires:	gnue-common
 Requires:	python
+Obsoletes:	GNUe-Designer
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -24,10 +25,19 @@ wizards... answer a few questions, attach your form to one or more
 database tables, select the fields to include, and, voila, a basic
 form is created. Basic support for schema creation is also included.
 
-#%description -l pl
+%description -l pl
+GNUe Designer to IDE (zintegrowane ¶rodowisko programistyczne) dla
+narzêdzi GNUe. Pozwala na wizualne rozmieszczanie formularzy w
+¶rodowisku typu RAD. Designer ma wbudowanego klienta formularzy,
+dziêki czemu mo¿na szybko testowaæ formularze z poziomu Designera.
+Designer obs³uguje tak¿e tworzenie formularzy za pomoc± wizardów -
+wystarczy odpowiedzieæ na kilka pytañ, do³±czyæ formularz do jednej
+lub wiêcej tabel bazy danych, wybraæ pola do w³±czenia i gotowe -
+tworzony jest podstawowy formularz. Dostêpna jest te¿ podstawowa
+obs³uga tworzenia schematów.
 
 %prep
-%setup -q -n %{name}-%{version}
+%setup -q
 
 %install
 rm -rf $RPM_BUILD_ROOT
