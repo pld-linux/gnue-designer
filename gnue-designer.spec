@@ -1,5 +1,5 @@
 Summary:	GNUe Designer - the IDE for the GNUe tools
-Summary(pl):	GNUe Designer - IDE dla narzêdzi GNUe
+Summary(pl.UTF-8):   GNUe Designer - IDE dla narzÄ™dzi GNUe
 Name:		gnue-designer
 Version:	0.5.6
 Release:	0.1
@@ -25,16 +25,16 @@ wizards... answer a few questions, attach your form to one or more
 database tables, select the fields to include, and, voila, a basic
 form is created. Basic support for schema creation is also included.
 
-%description -l pl
-GNUe Designer to IDE (zintegrowane ¶rodowisko programistyczne) dla
-narzêdzi GNUe. Pozwala na wizualne rozmieszczanie formularzy w
-¶rodowisku typu RAD. Designer ma wbudowanego klienta formularzy,
-dziêki czemu mo¿na szybko testowaæ formularze z poziomu Designera.
-Designer obs³uguje tak¿e tworzenie formularzy za pomoc± wizardów -
-wystarczy odpowiedzieæ na kilka pytañ, do³±czyæ formularz do jednej
-lub wiêcej tabel bazy danych, wybraæ pola do w³±czenia i gotowe -
-tworzony jest podstawowy formularz. Dostêpna jest te¿ podstawowa
-obs³uga tworzenia schematów.
+%description -l pl.UTF-8
+GNUe Designer to IDE (zintegrowane Å›rodowisko programistyczne) dla
+narzÄ™dzi GNUe. Pozwala na wizualne rozmieszczanie formularzy w
+Å›rodowisku typu RAD. Designer ma wbudowanego klienta formularzy,
+dziÄ™ki czemu moÅ¼na szybko testowaÄ‡ formularze z poziomu Designera.
+Designer obsÅ‚uguje takÅ¼e tworzenie formularzy za pomocÄ… wizardÃ³w -
+wystarczy odpowiedzieÄ‡ na kilka pytaÅ„, doÅ‚Ä…czyÄ‡ formularz do jednej
+lub wiÄ™cej tabel bazy danych, wybraÄ‡ pola do wÅ‚Ä…czenia i gotowe -
+tworzony jest podstawowy formularz. DostÄ™pna jest teÅ¼ podstawowa
+obsÅ‚uga tworzenia schematÃ³w.
 
 %prep
 %setup -q
