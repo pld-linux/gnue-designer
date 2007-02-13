@@ -1,5 +1,5 @@
 Summary:	GNUe Designer - the IDE for the GNUe tools
-Summary(pl.UTF-8):   GNUe Designer - IDE dla narzędzi GNUe
+Summary(pl.UTF-8):	GNUe Designer - IDE dla narzędzi GNUe
 Name:		gnue-designer
 Version:	0.5.6
 Release:	0.1
